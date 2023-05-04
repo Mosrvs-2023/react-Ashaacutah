@@ -1,11 +1,12 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import ButtonStack from './ButtonStack';
 
-export default function App() {
+const App = () => {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ButtonStack />
     </div>
   );
 }
+
+export default App;
